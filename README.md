@@ -69,7 +69,7 @@ We are a team of 4 members.
 
 ### Key Features <a name="key-features"></a>
 
-- Booking a luxury reseravtion.
+- Booking a luxury car.
 - Add a new car.
 - Delete a car.
 - My reservations page only for the logged-in users.
