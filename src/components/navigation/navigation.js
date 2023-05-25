@@ -27,7 +27,7 @@ const NavigationBar = () => {
     { url: '/my_reservations', name: 'My Reservations' },
     { url: '/add_car', name: 'Add Car' },
     { url: '/delete_house', name: 'Delete Car' },
-  ].filter(Boolean);
+  ];
 
   return (
     <div>

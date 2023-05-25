@@ -43,7 +43,7 @@ export const Cars = () => (
     <h3 className="email">Please select your Dream Car</h3>
     <div className="points">.........................</div>
     <Swiper
-      className="Cars-list"
+      className="car-list"
       modules={[Navigation, A11y]}
       spaceBetween={10}
       slidesPerView={3}
