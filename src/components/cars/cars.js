@@ -15,25 +15,25 @@ export const carData = [
     id: 1,
     name: 'Cars 1',
     image: 'https://images.pexels.com/photos/977003/pexels-photo-977003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Yellow Concrete Cars.',
+    description: 'Black Covertible Coupe',
   },
   {
     id: 2,
     name: 'Cars 2',
-    image: 'https://images.pexels.com/photos/977003/pexels-photo-977003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'White and Red Wooden Cars With Fence.',
+    image: 'https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'Blue Alpine Car.',
   },
   {
     id: 3,
     name: 'Cars 3',
-    image: 'https://images.pexels.com/photos/977003/pexels-photo-977003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Beautiful Cars in Australia.',
+    image: 'https://images.pexels.com/photos/3752194/pexels-photo-3752194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'Gray Lamborghini.',
   },
   {
     id: 4,
     name: 'Cars 4',
-    image: 'https://images.pexels.com/photos/977003/pexels-photo-977003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Beautiful Cars in Australia. One of the best places you can find here in Australia.',
+    image: 'https://images.pexels.com/photos/164654/pexels-photo-164654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'Orange Mercedes Benz G63.',
   },
 ];
 
