@@ -25,15 +25,3 @@ function App() {
 }
 
 export default App;
-
-
-
-const App = () => (
-  <div className="App">
-    <Router>
-      <Routes>
-        <Route element={<NavigationBarLayout />} />
-      </Routes>
-    </Router>
-  </div>
-);
