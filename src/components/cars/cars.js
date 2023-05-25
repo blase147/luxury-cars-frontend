@@ -37,7 +37,7 @@ export const carData = [
   },
 ];
 
- const Cars = () => (
+export const Cars = () => (
   <section>
     <h2>LATEST CARS</h2>
     <h3 className="email">Please select your Dream Car</h3>
@@ -64,4 +64,3 @@ export const carData = [
     </Swiper>
   </section>
 );
-export default Cars;
