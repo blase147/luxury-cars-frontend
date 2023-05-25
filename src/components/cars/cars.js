@@ -8,51 +8,51 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import styles from './Houses.scss';
+import styles from './cars.scss';
 
-export const houseData = [
+export const carData = [
   {
     id: 1,
-    name: 'House 1',
-    image: 'https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Yellow Concrete House.',
+    name: 'Cars 1',
+    image: 'https://images.pexels.com/photos/977003/pexels-photo-977003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'Yellow Concrete Cars.',
   },
   {
     id: 2,
-    name: 'House 2',
-    image: 'https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'White and Red Wooden House With Fence.',
+    name: 'Cars 2',
+    image: 'https://images.pexels.com/photos/977003/pexels-photo-977003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'White and Red Wooden Cars With Fence.',
   },
   {
     id: 3,
-    name: 'House 3',
-    image: 'https://images.pexels.com/photos/2587054/pexels-photo-2587054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Beautiful House in Australia.',
+    name: 'Cars 3',
+    image: 'https://images.pexels.com/photos/977003/pexels-photo-977003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'Beautiful Cars in Australia.',
   },
   {
     id: 4,
-    name: 'House 4',
-    image: 'https://images.pexels.com/photos/2587054/pexels-photo-2587054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Beautiful House in Australia. One of the best places you can find here in Australia.',
+    name: 'Cars 4',
+    image: 'https://images.pexels.com/photos/977003/pexels-photo-977003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'Beautiful Cars in Australia. One of the best places you can find here in Australia.',
   },
 ];
 
-export const Houses = () => (
+export const Cars = () => (
   <section>
-    <h2>LATEST HOUSES</h2>
-    <h3 className="email">Please select your Dream House</h3>
+    <h2>LATEST CARS</h2>
+    <h3 className="email">Please select your Dream Car</h3>
     <div className="points">.........................</div>
     <Swiper
-      className="house-list"
+      className="Cars-list"
       modules={[Navigation, A11y]}
       spaceBetween={10}
       slidesPerView={3}
       navigation
     >
       {
-        houseData.map((item) => (
+        CarsData.map((item) => (
           <SwiperSlide className="list-items" key={item.id}>
-            <div className="houses-imgs">
+            <div className="cars-imgs">
               <img src={item.image} style={{ width: '70', height: '70' }} alt={item.name} />
             </div>
             <h5 className={styles.name}><Link to={`${item.id}`}>{item.name}</Link></h5>
