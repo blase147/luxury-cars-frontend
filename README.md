@@ -27,9 +27,9 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Luxury Cars Frontend <a name="about-the-project"></a>
-**luxury-cars-frontend** is an implemention of a connection between Ruby on Rails back-end and React front-end. [luxury-cars-backend](https://github.com/soulemanou-software/luxury-cars-backend) handles the backend API, and [luxury-cars-frontend](https://github.com/blase147/luxury-cars-frontend) handles the frontend UI to display Luxury cars for rent, my reservations when logged in, add cars and delete cars navigations on the homepage.
+**Luxury-cars-frontend** is an implemention of a connection between Ruby on Rails back-end and React front-end. [Luxury-cars-backend](https://github.com/soulemanou-software/luxury-cars-backend) handles the backend API, and [Luxury-cars-frontend](https://github.com/blase147/luxury-cars-frontend) handles the frontend UI to display Luxury cars for rent, my reservations when logged in, add cars and delete cars navigations on the homepage.
 
-## Kanban Board 
+## Kanban Board
 
 We are a team of 3 members.
 
