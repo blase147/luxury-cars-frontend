@@ -3,8 +3,8 @@
 
 # 📗 Table of Contents
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Hello React Frontend ](#-hello-react-frontend-)
-  - [Kanban Board](#kanban-board)
+- [📖 Luxury Cars Frontend ](#-luxury-cars-frontend-)
+  - [Kanban Board](#kanban-board-)
     - [Screenshot of of the initial state of the Kanban board](#screenshot-of-of-the-initial-state-of-the-kanban-board)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
