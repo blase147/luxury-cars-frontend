@@ -27,11 +27,11 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Hello React Frontend <a name="about-the-project"></a>
-**Homely-frontend** is an implemention of a connection between Ruby on Rails back-end and React front-end. [Homely-backend](https://github.com/soulemanou-software/luxury-cars-backend) handles the backend API, and [Hello React Frontend](https://github.com/blase147/luxury-cars-frontend) handles the frontend UI to display a random greeting message.
+**luxury-cars-frontend** is an implemention of a connection between Ruby on Rails back-end and React front-end. [luxury-cars-backend](https://github.com/soulemanou-software/luxury-cars-backend) handles the backend API, and [luxury-cars-frontend](https://github.com/blase147/luxury-cars-frontend) handles the frontend UI to display Luxury cars for rent, my reservations when logged in, add cars and delete cars navigations on the homepage.
 
 ## Kanban Board 
 
-We are a team of 4 members.
+We are a team of 3 members.
 
 - [Chukwuma Paul Mosanya](https://github.com/blase147)
 - [Billal Chami](https://github.com/bill7pearl)
@@ -107,8 +107,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  git clone git@github.com:Wahaj-Ali/homely-frontend.git
-  cd homely-frontend
+  git clone git@github.com:blase147/luxury-cars-frontend.git
+  cd luxury-cars-frontend
 ```
 
 ### Install
