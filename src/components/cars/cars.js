@@ -50,7 +50,7 @@ export const Cars = () => (
       navigation
     >
       {
-        CarsData.map((item) => (
+        carData.map((item) => (
           <SwiperSlide className="list-items" key={item.id}>
             <div className="cars-imgs">
               <img src={item.image} style={{ width: '70', height: '70' }} alt={item.name} />
