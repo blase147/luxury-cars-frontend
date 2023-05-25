@@ -1,213 +1,70 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-<a name="readme-top"></a>
+# Getting Started with Create React App
 
-# 📗 Table of Contents
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Luxury Cars Lending ](#-luxury-cars-lending-)
-  - [Kanban Board](#kanban-board-)
-    - [Screenshot of of the initial state of the Kanban board](#screenshot-of-of-the-initial-state-of-the-kanban-board)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage ](#usage-)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Author ](#-author-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<!-- PROJECT DESCRIPTION -->
+## Available Scripts
 
-# 📖 Luxury Cars Lending <a name="about-the-project"></a>
-**Luxury cars lending** is an implemention of a connection between Ruby on Rails back-end and React front-end. [Luxury-cars-backend](https://github.com/soulemanou-software/luxury-cars-backend) handles the backend API, and [Luxury-cars-frontend](https://github.com/blase147/luxury-cars-frontend) handles the frontend UI to display Luxury cars for rent, my reservations when logged in, add cars and delete cars navigations on the homepage.
+In the project directory, you can run:
 
-## Kanban Board
+### `npm start`
 
-We are a team of 3 members.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- [Chukwuma Paul Mosanya](https://github.com/blase147)
-- [Billal Chami](https://github.com/bill7pearl)
-- [Soulemanou Kunchiefuh Babanou](https://github.com/soulemanou-software)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-[Kanban Board](https://github.com/bill7pearl/luxury-cars-backend/projects/1)
+### `npm test`
 
-### Screenshot of of the initial state of the Kanban board
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-![]()
+### `npm run build`
 
-![]()
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🛠 Built With <a name="built-with"></a>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Tech Stack <a name="tech-stack"></a>
+### `npm run eject`
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://github.com/microverseinc/linters-config/tree/master/ror">Linters</a></li>
-    <li><a href="https://reactjs.org/">React</a></li>
-    <li><a href="https://redux.js.org/">Redux</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://rubyonrails.org/">ROR</a></li>
-  </ul>
-</details>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-<!-- Features -->
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Key Features <a name="key-features"></a>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Booking a luxury car.
-- Add a new car.
-- Delete a car.
-- My reservations page only for the logged-in users.
-- Responsive Design.
-- State Management using Redux toolkit.
-- Use latest ES6 modules.
-- Design inspired by a Behance App design.
-- Axios for making HTTP requests from the server.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Learn More
 
-## 🚀 Live Demo <a name="live-demo"></a>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- [Luxury Cars]()
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-<!-- GETTING STARTED -->
+### Analyzing the Bundle Size
 
-## 💻 Getting Started <a name="getting-started"></a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-To get a local copy up and running, follow these steps.
-### Prerequisites
+### Making a Progressive Web App
 
-In order to run this project you need:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- [API](https://github.com/bill7pearl/luxury-cars-backend)
-- [git](https://git-scm.com/)
-- [node.js](https://nodejs.org/en/)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+### Advanced Configuration
 
-### Setup
-
-Clone this repository to your desired folder:
-
-```
-  git clone git@github.com:blase147/luxury-cars-frontend.git
-  cd luxury-cars-frontend
-```
-
-### Install
-
-Install thr project dependencies with:
-
-```
-  npm install
-```
-
-### Usage <a name="usage"></a>
-
-To run the project, execute the following command:
-
-```
-  npm start
-```
-
-### Run tests
-
-To run the test, execute the following command:
-
-```
-  npm test
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-You can deploy this project using:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-```
-  npm run deploy
-```
+### `npm run build` fails to minify
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-## 👥 Author <a name="authors"></a>
-
-👤 **Chukwuma Paul Mosanya**
-
-- [GitHub](https://github.com/blase147)
-- [Twitter](https://twitter.com/ChukwumaMosanya)
-- [LinkedIn](https://www.linkedin.com/in/chukwuma-mosanya)
-
-👤 **Soulemanou Kunchiefuh Babanou**
-
-- [GitHub](https://github.com/soulemanou-software)
-- [Twitter](https://twitter.com/Mr_Babanou_237)
-- [LinkedIn](https://www.linkedin.com/in/)
-
-👤 **Billal Chami**
-
-- [GitHub](https://github.com/bill7pearl)
-- [Twitter](https://twitter.com/)
-- [LinkedIn](https://www.linkedin.com/in/)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- Add more details about the cars.
-- Update the style for a modern design.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/blase147/luxury-cars-frontend/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project and want to support me make cooler projects Give this project a Star.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-Thank you to  [Murat Korkmaz](https://www.behance.net/muratk) for the design ideas provided.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
