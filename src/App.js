@@ -4,7 +4,6 @@ import {
 import NavigationBar from './components/navigation/navigation';
 import './App.css';
 
-
 const NavigationBarLayout = () => (
   <>
     <NavigationBar />
@@ -15,11 +14,11 @@ const NavigationBarLayout = () => (
 function App() {
   return (
     <div className="App">
-    <Router>
-      <Routes>
-        <Route element={<NavigationBarLayout />} />
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          <Route element={<NavigationBarLayout />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
