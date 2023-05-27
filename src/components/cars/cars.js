@@ -13,7 +13,7 @@ import { carData } from '../../mockData';
 
 const Cars = () => (
   <section className="cars-sec">
-    <h2>LATEST Cars</h2>
+    <h2>LATEST CARS</h2>
     <h3 className="email">Please select your Dream Car</h3>
     <div className="points">.........................</div>
     <Swiper
