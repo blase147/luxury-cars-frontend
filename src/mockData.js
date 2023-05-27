@@ -28,7 +28,7 @@ export const carData = [
 export const cardetail = {
   id: 1,
   name: 'Car 1',
-  mage: 'https://images.pexels.com/photos/164654/pexels-photo-164654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  image: 'https://images.pexels.com/photos/164654/pexels-photo-164654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   description: 'Orange Mercedes Benz G63.',
   city: 'Australia',
 };
