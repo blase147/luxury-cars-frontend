@@ -1,9 +1,10 @@
 import {
   BrowserRouter as Router, Routes, Route,
 } from 'react-router-dom';
-import NavigationBar from './components/navigation/navigation';
-import { Cars } from './components/cars/cars';
 import './App.css';
+import NavigationBar from './components/navigation/navigation';
+import CarsDetails from './components/cars details/carDetails';
+import Cars from './components/cars/cars';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <NavigationBar />
         <Routes>
           <Route path="/" element={<Cars />} />
+          <Route path="/:id" element={<CarsDetails />} />
         </Routes>
       </Router>
     </div>
