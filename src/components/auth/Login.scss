@@ -48,7 +48,7 @@
       margin: 10px auto;
       padding: 0 1rem;
 
-      @extend %btn-properties;
+      // @extend %btn-properties;
 
       border: $border;
       position: relative;
@@ -82,7 +82,7 @@
     }
 
     button {
-      @extend %btn-color;
+      // @extend %btn-color;
     }
 
     .login-btn {
