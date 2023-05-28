@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 <a name="readme-top"></a>
 
+# 📗 Table of Contents
 - [📗 Table of Contents](#-table-of-contents-)
-- [📖 Luxury Cars Lending](#-luxury-cars-lending-)>>>>>> dev
+- [📖 Luxury Cars Lending ](#-luxury-cars-lending-)
   - [Kanban Board](#kanban-board-)
     - [Screenshot of of the initial state of the Kanban board](#screenshot-of-of-the-initial-state-of-the-kanban-board)
   - [🛠 Built With](#-built-with-)
