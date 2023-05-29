@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Navigation, A11y,
@@ -8,23 +8,42 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { useDispatch, useSelector } from 'react-redux';
 import styles from './cars.scss';
-import { carData } from '../../mockData';
+// import { carData } from '../../mockData';
+import { fetchCars } from '../../Redux/Reducers/carSlice';
 
-const Cars = () => (
-  <section className="cars-sec">
-    <h2>LATEST CARS</h2>
-    <h3 className="email">Please select your Dream Car</h3>
-    <div className="points">.........................</div>
-    <Swiper
-      className="car-list"
-      modules={[Navigation, A11y]}
-      spaceBetween={10}
-      slidesPerView={3}
-      navigation
-    >
-      {
-        carData.map((item) => (
+const Cars = () => {
+  const dispatch = useDispatch();
+  const cars = useSelector((state) => state.cars.cars);
+  const status = useSelector((state) => state.cars.status);
+
+  useEffect(() => {
+    if (status === 'idle') {
+      dispatch(fetchCars());
+    }
+  }, [dispatch, status]);
+
+  useEffect(() => {
+    dispatch(fetchCars());
+  }, [dispatch]);
+
+  const isMobile = window.innerWidth <= 768;
+
+  return (
+    <section className="cars-sec">
+      <h2>LATEST CARS</h2>
+      <h3 className="email">Please select your Dream Car</h3>
+      <div className="points">.........................</div>
+      <Swiper
+        className="car-list"
+        modules={[Navigation, A11y]}
+        spaceBetween={10}
+        slidesPerView={isMobile ? 1 : 3}
+        navigation
+      >
+        {
+        cars.map((item) => (
           <SwiperSlide className="list-items" key={item.id}>
             <div className="cars-imgs">
               <img src={item.image} style={{ width: '70', height: '70' }} alt={item.name} />
@@ -35,8 +54,9 @@ const Cars = () => (
           </SwiperSlide>
         ))
       }
-    </Swiper>
-  </section>
-);
+      </Swiper>
+    </section>
+  );
+};
 
 export default Cars;
