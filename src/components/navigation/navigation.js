@@ -23,8 +23,8 @@ const NavigationBar = () => {
   // const navigate = useNavigate();
 
   const navLinks = [
-    { url: '/', name: 'dashboard' },
-    { url: '/my_favourites', name: 'My Favourites' },
+    { url: '/', name: 'cars' },
+    { url: '/my_reservations', name: 'My Reservations' },
     { url: '/add_car', name: 'Add Car' },
     { url: '/delete_house', name: 'Delete Car' },
   ];
