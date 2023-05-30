@@ -30,30 +30,33 @@ const Cars = () => {
   const isMobile = window.innerWidth <= 768;
 
   return (
-    <section className="cars-sec">
+    <section className="house-sec">
       <h2>LATEST CARS</h2>
-      <h3 className="email">Please select your Dream Car</h3>
+      <h3 className="email">Please select your Dream House</h3>
       <div className="points">.........................</div>
-      <Swiper
-        className="car-list"
-        modules={[Navigation, A11y]}
-        spaceBetween={10}
-        slidesPerView={isMobile ? 1 : 3}
-        navigation
-      >
-        {
-        cars.map((item) => (
-          <SwiperSlide className="list-items" key={item.id}>
-            <div className="cars-imgs">
-              <img src={item.image} style={{ width: '70', height: '70' }} alt={item.name} />
-            </div>
-            <h5 className={styles.name}><Link to={`${item.id}`}>{item.name}</Link></h5>
-            <div className="points">....................</div>
-            <p className="email">{item.description}</p>
-          </SwiperSlide>
-        ))
-      }
-      </Swiper>
+      {status === 'loading' && <div>Loading...</div>}
+      {status === 'succeeded' && (
+        <Swiper
+          className="car-list"
+          modules={[Navigation, A11y]}
+          spaceBetween={10}
+          slidesPerView={isMobile ? 1 : 3}
+          navigation
+        >
+          {
+            cars.map((item) => (
+              <SwiperSlide className="list-items" key={item.id}>
+                <div className="cars-imgs">
+                  <img src={item.image} style={{ width: '70', height: '70' }} alt={item.name} />
+                </div>
+                <h5 className={styles.name}><Link to={`${item.id}`}>{item.name}</Link></h5>
+                <div className="points">....................</div>
+                <p className="email">{item.description}</p>
+              </SwiperSlide>
+            ))
+          }
+        </Swiper>
+      )}
     </section>
   );
 };
