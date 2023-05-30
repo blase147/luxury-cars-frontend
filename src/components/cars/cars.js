@@ -32,7 +32,7 @@ const Cars = () => {
   return (
     <section className="house-sec">
       <h2>LATEST CARS</h2>
-      <h3 className="email">Please select your Dream House</h3>
+      <h3 className="email">Please select your Dream Car</h3>
       <div className="points">.........................</div>
       {status === 'loading' && <div>Loading...</div>}
       {status === 'succeeded' && (
