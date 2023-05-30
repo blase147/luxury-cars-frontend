@@ -12,7 +12,7 @@ import './carDetails.scss';
 const CarsDetails = () => {
   const { id } = useParams();
   const dispatch = useDispatch();
-  const cars = useSelector((state) => state.carDetails.car);
+  const car = useSelector((state) => state.carDetail.car);
 
   useEffect(() => {
     dispatch(fetchCarById(id));
@@ -20,28 +20,28 @@ const CarsDetails = () => {
 
   return (
     <section className="details-sec">
-      {cars ? (
+      {car ? (
         <div className="detail-container">
           <div className="image">
-            <img src={cars.image} alt={cars.name} />
+            <img src={car.image} alt={car.name} />
           </div>
           <div className="details">
-            <h5 className="name">{cars.name}</h5>
+            <h5 className="name">{car.name}</h5>
             <div className="ulIcon">
               <ul>
                 <li className="first">
-                  <p>City: </p>
-                  <p>{cars.brand}</p>
+                  <p>Brand: </p>
+                  <p>{car.brand}</p>
                 </li>
                 <li className="first">
-                  <p>cars ID: </p>
-                  <p>{cars.id}</p>
+                  <p>car ID: </p>
+                  <p>{car.id}</p>
                 </li>
                 <li className="first">
-                  <p>Daily Rent:</p>
+                  <p>Lending Fee:</p>
                   <p>
                     $
-                    {cars.lending_fee}
+                    {car.lending_fee}
                   </p>
                 </li>
               </ul>

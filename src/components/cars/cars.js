@@ -10,7 +10,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { useDispatch, useSelector } from 'react-redux';
 import styles from './cars.scss';
-// import { carData } from '../../mockData';
 import { fetchCars } from '../../Redux/Reducers/carSlice';
 
 const Cars = () => {

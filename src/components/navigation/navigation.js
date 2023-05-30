@@ -4,7 +4,9 @@ import {
   FaTwitter, FaFacebookF, FaVine, FaPinterestP,
 } from 'react-icons/fa';
 import { TiSocialGooglePlus } from 'react-icons/ti';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { logoutUser } from '../../Redux/Reducers/authSlice';
 
 const NavigationBar = () => {
   // const [style, setStyle] = useState('menu');
@@ -20,31 +22,49 @@ const NavigationBar = () => {
   //   }
   // };
 
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const token = localStorage.getItem('token');
+
+  const handleLogout = async () => {
+    if (token) {
+      await dispatch(logoutUser());
+      setTimeout(() => {
+        navigate('/');
+      }, 100);
+    }
+  };
 
   const navLinks = [
-    { url: '/', name: 'cars' },
-    { url: '/my_reservations', name: 'My Reservations' },
-    { url: '/add_car', name: 'Add Car' },
-    { url: '/delete_house', name: 'Delete Car' },
-  ];
+    { url: '/', name: 'Cars' },
+    token && { url: '/my_reservations', name: 'My Reservations' },
+    { url: '/add_house', name: 'Add House' },
+    { url: '/delete_house', name: 'Delete House' },
+  ].filter(Boolean);
 
   return (
     <div>
+      {/* <button type="button" onClick={handleClick}>
+        Menu
+      </button> */}
       <div className="menu">
-        <div className="logo">Luxury Cars Lending</div>
+        <div className="logo">Luxury Car Lending</div>
         <ul>
           {navLinks.map(({ url, name }) => (
             <li key={name}>
               <Link to={url}>{name}</Link>
             </li>
           ))}
-          <li>
-            <Link to="/login">Log In</Link>
-          </li>
-
+          {token ? (
+            <li>
+              <button type="button" onClick={handleLogout}>Logout</button>
+            </li>
+          ) : (
+            <li>
+              <Link to="/login">Log In</Link>
+            </li>
+          )}
         </ul>
-
         <div className="footer">
           <div className="social">
             <FaTwitter />
