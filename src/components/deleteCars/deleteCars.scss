@@ -1,0 +1,56 @@
+@import './../scss/config';
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  height: auto;
+}
+.cardContent{
+  justify-content: start;
+  text-align: start;
+  border: 2px solid green;
+  gap: 0;
+  padding: 10px;
+  height: auto;
+  .card{
+    background-color: $background-color;
+    border: 1px solid rgba(128, 128, 128, 0.637);
+    border-radius: 20px;
+    width: 20vw;
+    height: auto;
+    img{
+      border-radius: 20px 20px 0 0;
+      width: 20vw;
+      height: 28vh;
+    }
+    .cardtextcontent{
+      padding: 5px;
+    }
+    h5{
+     margin-top: 5px;
+     margin-bottom: 2px;
+     font-size: 20px;
+     font-weight: bold;
+     color: grey;
+
+    }
+    p{
+      margin: 0;
+      font-size: small;
+      
+    }
+  }
+}
+.btndelete{
+  margin-block: 15px;
+  position: relative;
+  padding-inline: 10px;
+  padding-block: 5px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  width: max-content;
+  height: max-content;
+}
