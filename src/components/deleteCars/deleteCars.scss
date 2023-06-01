@@ -1,0 +1,82 @@
+@import './../scss/config';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  height: auto;
+}
+
+.cardContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: start;
+  text-align: start;
+  gap: 10px;
+  padding: 10px;
+  height: auto;
+
+  @media screen and (max-width: 375px) {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    grid-template-rows: auto;
+  }
+
+  .card {
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.637);
+    border-radius: 20px;
+    width: 20vw;
+    height: auto;
+
+    img {
+      border-radius: 20px 20px 0 0;
+      width: 20vw;
+      height: 28vh;
+    }
+
+    .cardtextcontent {
+      padding: 5px;
+    }
+
+    h5 {
+      margin-top: 0;
+      margin-bottom: 2px;
+      font-size: 20px;
+      font-weight: bold;
+      color: $secondary-color;
+      margin-left: 5px;
+    }
+
+    p {
+      margin: 0;
+      font-size: small;
+    }
+  }
+}
+
+.btnDel {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.btndelete {
+  margin-block: 10px;
+  position: relative;
+  padding-inline: 10px;
+  padding-block: 5px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  width: 95%;
+  height: max-content;
+}
+
+.descrip {
+  padding-left: 5px;
+}
