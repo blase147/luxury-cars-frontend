@@ -19,10 +19,13 @@
 h2{
   color: $secondary-color;
 }
-input[type="submit"]{
+.btnsubmitf{
+  position: relative;
   background-color: $secondary-color;
   text-align: center;
   padding-inline: 25px;
+  padding-block: 0;
+  margin: 5px 0 0 0;
   border-radius: 10px;
   color: white;
   font-size: large;
