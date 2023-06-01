@@ -3,7 +3,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-export const fetchCars = createAsyncThunk('houses/fetchCars', async () => {
+export const fetchCars = createAsyncThunk('cars/fetchCars', async () => {
   const response = await axios.get('http://localhost:4000/api/v1/cars');
   return response.data;
 });
@@ -23,7 +23,7 @@ const carsSlice = createSlice({
       })
       .addCase(fetchCars.fulfilled, (state, action) => {
         state.status = 'succeeded';
-        state.houses = action.payload;
+        state.cars = action.payload;
       })
       .addCase(fetchCars.rejected, (state, action) => {
         state.status = 'failed';

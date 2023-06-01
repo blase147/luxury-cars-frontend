@@ -8,8 +8,8 @@ const store = configureStore({
   reducer: {
     auth: authReducer,
     register: signUpReducer,
-    houses: carsReducer,
-    houseDetail: carReducer,
+    cars: carsReducer,
+    carDetail: carReducer,
   },
 });
 
