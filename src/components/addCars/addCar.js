@@ -73,7 +73,7 @@ const AddCar = () => {
             </button>
           </div>
           <Link to="/">
-            <button type="button" aria-label="Go back"><IoCaretBackOutline /></button>
+            <button type="button" className="returnBtn" aria-label="Go back"><IoCaretBackOutline /></button>
           </Link>
         </form>
 
