@@ -50,4 +50,4 @@ const addCarSlice = createSlice({
       });
   },
 });
-export default addCarSlice;
+export default addCarSlice.reducer;

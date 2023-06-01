@@ -47,6 +47,7 @@ const AddCar = () => {
       }, 100);
     }
   }, [isCarAdded, navigate]);
+
   return (
     <>
       <div className="container">

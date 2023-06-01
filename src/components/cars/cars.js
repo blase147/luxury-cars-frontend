@@ -30,7 +30,7 @@ const Cars = () => {
   const isMobile = window.innerWidth <= 768;
 
   return (
-    <section className="house-sec">
+    <section className="car-sec">
       <h2>LATEST CARS</h2>
       <h3 className="email">Please select your Dream Car</h3>
       <div className="points">.........................</div>

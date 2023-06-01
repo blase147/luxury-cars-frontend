@@ -38,8 +38,8 @@ const NavigationBar = () => {
   const navLinks = [
     { url: '/', name: 'Cars' },
     token && { url: '/my_reservations', name: 'My Reservations' },
-    { url: '/add_house', name: 'Add House' },
-    { url: '/delete_house', name: 'Delete House' },
+    { url: '/add_car', name: 'Add Car' },
+    { url: '/delete_car', name: 'Delete Car' },
   ].filter(Boolean);
 
   return (
