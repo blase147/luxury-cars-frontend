@@ -10,6 +10,7 @@ import Cars from './components/cars/cars';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import DeleteCar from './components/deleteCars/DeleteCar';
+import AddCar from './components/addCars/addCar';
 
 const NavigationbarLayout = () => (
   <>
@@ -30,6 +31,7 @@ function App() {
               <Route path="/" element={<Cars />} />
               <Route path="/:id" element={<CarsDetails />} />
               <Route path="/delete_house" element={<DeleteCar />} />
+              <Route path="/add_car" element={<AddCar />} />
             </Route>
           </Routes>
         </Router>
