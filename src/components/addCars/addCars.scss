@@ -1,5 +1,6 @@
 @import './../scss/config';
-.container{
+
+.container {
   display: flex;
   flex-direction: column;
   margin-left: 200px;
@@ -7,19 +8,23 @@
   justify-content: center;
   align-items: center;
   max-height: 100vh;
-  form{
+
+  form {
     display: block;
     gap: 10px;
     width: 40vw;
   }
 }
-.first{
+
+.first {
   margin-top: 20px;
 }
-h2{
+
+h2 {
   color: $secondary-color;
 }
-.btnsubmitf{
+
+.btnsubmitf {
   position: relative;
   background-color: $secondary-color;
   text-align: center;
@@ -31,13 +36,15 @@ h2{
   font-size: large;
   width: max-content;
 }
-textarea{
+
+textarea {
   width: 100%;
   padding: 10px;
   border: none;
   margin-top: 10px;
 }
-input{
+
+input {
   padding: 10px;
   width: 100%;
   margin-block: 5px;
