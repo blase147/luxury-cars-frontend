@@ -30,7 +30,7 @@ function App() {
             <Route element={<NavigationbarLayout />}>
               <Route path="/" element={<Cars />} />
               <Route path="/:id" element={<CarsDetails />} />
-              <Route path="/delete_house" element={<DeleteCar />} />
+              <Route path="/delete_car" element={<DeleteCar />} />
               <Route path="/add_car" element={<AddCar />} />
             </Route>
           </Routes>
