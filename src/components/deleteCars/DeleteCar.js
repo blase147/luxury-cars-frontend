@@ -1,8 +1,7 @@
 import React from 'react';
 import './deleteCars.scss';
 import { carData } from '../../mockData';
-// import { AiTwotoneDelete } from 'react-icons/fa';
-// import Swiper from 'swiper';
+
 const DeleteCar = () => (
   <div className="container">
     <div className="cardContent">
