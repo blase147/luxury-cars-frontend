@@ -23,6 +23,30 @@ export const carData = [
     image: 'https://images.pexels.com/photos/164654/pexels-photo-164654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     description: 'Orange Mercedes Benz G63.',
   },
+  {
+    id: 5,
+    name: 'Cars 5',
+    image: 'https://images.pexels.com/photos/164654/pexels-photo-164654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'Orange Mercedes Benz G63.',
+  },
+  {
+    id: 6,
+    name: 'Cars 6',
+    image: 'https://images.pexels.com/photos/164654/pexels-photo-164654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'Orange Mercedes Benz G63.',
+  },
+  {
+    id: 7,
+    name: 'Cars 7',
+    image: 'https://images.pexels.com/photos/164654/pexels-photo-164654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'Orange Mercedes Benz G63.',
+  },
+  {
+    id: 8,
+    name: 'Cars 8',
+    image: 'https://images.pexels.com/photos/164654/pexels-photo-164654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    description: 'Orange Mercedes Benz G63.',
+  },
 ];
 
 export const cardetail = {
