@@ -1,0 +1,41 @@
+@import './../scss/config';
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  form{
+    display: block;
+    gap: 10px;
+    width: 40vw;
+  }
+}
+.first{
+  margin-top: 20px;
+}
+h2{
+  color: $secondary-color;
+}
+input[type="submit"]{
+  background-color: $secondary-color;
+  text-align: center;
+  padding-inline: 25px;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  width: max-content;
+}
+textarea{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+}
+input{
+  padding: 10px;
+  width: 100%;
+  margin-block: 5px;
+}
