@@ -34,7 +34,7 @@ const CarsDetails = () => {
                   <p>{car.brand}</p>
                 </li>
                 <li className="first">
-                  <p>car ID: </p>
+                  <p>Car ID: </p>
                   <p>{car.id}</p>
                 </li>
                 <li className="first">
