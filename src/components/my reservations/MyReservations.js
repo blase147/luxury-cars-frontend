@@ -4,7 +4,7 @@ import './MyReservations.scss';
 import { Link } from 'react-router-dom';
 import { IoCaretBackOutline } from 'react-icons/io5';
 import { fetchCarById } from '../../Redux/Reducers/carDetailsSlice';
-import { fetchReservations } from '../../Redux/Reducers/reservationsSlice';
+import { fetchReservations } from '../../Redux/Reducers/reservationSlice';
 
 const ReservationList = () => {
   const dispatch = useDispatch();

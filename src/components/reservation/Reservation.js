@@ -4,7 +4,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { IoCaretBackOutline } from 'react-icons/io5';
-import { createReservation } from '../../Redux/Reducers/reservationsSlice';
+import { createReservation } from '../../Redux/Reducers/reservationSlice';
 import { fetchCurrentUser } from '../../Redux/Reducers/authSlice';
 import './Reservation.scss';
 
@@ -16,7 +16,7 @@ const Reservation = () => {
     id,
   } = useSelector((state) => state.auth);
 
-  const house = useSelector((state) => state.carDetail.car);
+  const car = useSelector((state) => state.carDetail.car);
 
   useEffect(() => {
     dispatch(fetchCurrentUser());
