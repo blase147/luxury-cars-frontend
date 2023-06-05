@@ -68,7 +68,7 @@ const Reservation = () => {
                 utcOffset
               />
               <button type="button" className="book-btn" onClick={handleCreateReservation}>
-                Confirm Booking 
+                Confirm Booking
               </button>
             </div>
           </div>
