@@ -78,6 +78,9 @@ const AddCar = () => {
           <div className="inputEle">
             <textarea id="message" name="description" rows="4" placeholder="Car Description..." onChange={handleChange} />
           </div>
+          <div className="inputEle">
+            <input type="text" placeholder="Car" onChange={handleChange} name="car" />
+          </div>
           <div className="inputEle submit">
             <button type="button" className="btnsubmitf" onClick={handleSubmit}>
               Add Car
