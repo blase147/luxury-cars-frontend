@@ -39,7 +39,7 @@ const ReservationList = () => {
   }
 
   const getCarName = (carId) => {
-    const house = cars.find((c) => c.id === carId);
+    const car = cars.find((c) => c.id === carId);
     return car ? car.name : 'Loading...';
   };
 

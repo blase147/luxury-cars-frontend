@@ -43,7 +43,7 @@ export const fetchCurrentUser = createAsyncThunk(
   'auth/fetchCurrentUser',
   async (_, thunkAPI) => {
     try {
-      const response = await axios.get(`${BASE_URL}/current_user`, {
+      const response = await axios.get(`${'http://localhost:4000/login'}/current_user`, {
         headers: {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${localStorage.getItem('token')}`,
@@ -58,8 +58,8 @@ export const fetchCurrentUser = createAsyncThunk(
       return thunkAPI.rejectWithValue('Request failed');
     } catch (error) {
       return thunkAPI.rejectWithValue(error.message);
-    }
-  },
+    }
+  },
 );
 
 const authSlice = createSlice({
