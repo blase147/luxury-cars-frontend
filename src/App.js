@@ -11,8 +11,8 @@ import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import DeleteCar from './components/deleteCars/DeleteCar';
 import AddCar from './components/addCars/addCar';
-import ReservationList  from './components/my reservations/MyReservations';
-import Reservation  from './components/reservation/Reservation';
+import ReservationList from './components/my reservations/MyReservations';
+import Reservation from './components/reservation/Reservation';
 
 const NavigationbarLayout = () => (
   <>
