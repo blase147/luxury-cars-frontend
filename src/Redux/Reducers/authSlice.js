@@ -39,6 +39,29 @@ export const logoutUser = createAsyncThunk(
   },
 );
 
+export const fetchCurrentUser = createAsyncThunk(
+  'auth/fetchCurrentUser',
+  async (_, thunkAPI) => {
+    try {
+      const response = await axios.get(`${'http://localhost:4000/login'}/current_user`, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${localStorage.getItem('token')}`,
+        },
+      });
+      // console.log(response.data.data);
+
+      if (response.status === 200) {
+        return response.data.data;
+      }
+
+      return thunkAPI.rejectWithValue('Request failed');
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.message);
+    }
+  },
+);
+
 const authSlice = createSlice({
   name: 'auth',
   initialState: {
