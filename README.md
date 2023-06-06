@@ -2,8 +2,8 @@
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
-- [📗 Table of Contents](#-table-of-contents-)
-- [📖 Luxury Cars Lending ](#-luxury-cars-lending-)
+
+- [📖 Luxury Cars Lending](#-luxury-cars-lending-)
   - [Kanban Board](#kanban-board-)
     - [Screenshot of of the initial state of the Kanban board](#screenshot-of-of-the-initial-state-of-the-kanban-board)
   - [🛠 Built With](#-built-with-)
@@ -43,7 +43,8 @@ We are a team of 3 members.
 ### Screenshot of of the initial state of the Kanban board
 
 ![](![image](https://github.com/blase147/luxury-cars-frontend/assets/98450369/62a835fa-e724-4393-89a8-77e3062c1461)
-# Link to the project https://github.com/users/blase147/projects/9/views/1?layout=board)
+
+# Link to the project <https://github.com/users/blase147/projects/9/views/1?layout=board>)
 
 ![]()
 
