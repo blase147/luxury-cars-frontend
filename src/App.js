@@ -12,7 +12,7 @@ import Register from './components/auth/Register';
 import DeleteCar from './components/deleteCars/DeleteCar';
 import AddCar from './components/addCars/addCar';
 import ReservationList from './components/my reservations/MyReservations';
-import Reservatio from './components/reservation/Reservation';
+import Reservation from './components/reservation/Reservation';
 
 const NavigationbarLayout = () => (
   <>
