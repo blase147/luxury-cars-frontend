@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import AddHouse from '../../components/addCars/addCar';
+import AddCar from '../../components/addCars/addCar';
 import store from '../../Redux/store';
 
 describe('It renders', () => {
