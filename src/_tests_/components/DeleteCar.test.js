@@ -21,7 +21,7 @@ describe('DeleteCar', () => {
     const initialState = {
       cars: {
         cars: [
-          { id: 1, name: 'Alpine' },
+          { id: 1, name: 'cars.cars.name' },
         ],
         status: 'succeeded',
       },
@@ -30,7 +30,7 @@ describe('DeleteCar', () => {
     // Create a mock store with the initial state
     const store = mockStore(initialState);
 
-    // Render the DeleteHouse component with the mock store
+    // Render the DeleteCar component with the mock store
     const { getByText, getByRole } = render(
       <Provider store={store}>
         <MemoryRouter>
@@ -39,8 +39,8 @@ describe('DeleteCar', () => {
       </Provider>,
     );
 
-    // Check if the houses are rendered
-    expect(getByText('Alpine')).toBeInTheDocument();
+    // Check if the cars are rendered
+    expect(getByText('name')).toBeInTheDocument();
     expect(getByRole('button', { name: 'Delete' })).toBeInTheDocument();
   });
 });
