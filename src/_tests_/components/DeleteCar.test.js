@@ -21,7 +21,7 @@ describe('DeleteCar', () => {
     const initialState = {
       cars: {
         cars: [
-          { id: 1, name: 'cars.cars.name' },
+          { id: 1, name: 'Car 1' },
         ],
         status: 'succeeded',
       },
@@ -40,7 +40,7 @@ describe('DeleteCar', () => {
     );
 
     // Check if the cars are rendered
-    expect(getByText('name')).toBeInTheDocument();
+    expect(getByText('Car 1')).toBeInTheDocument();
     expect(getByRole('button', { name: 'Delete' })).toBeInTheDocument();
   });
 });
