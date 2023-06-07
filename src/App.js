@@ -21,25 +21,27 @@ const NavigationbarLayout = () => (
   </>
 );
 
-const App = () => (
+function App() {
+  return (
+    <div className="App">
+      <Provider store={store}>
+        <Router>
+          <Routes>
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/reservation/:id" element={<Reservation />} />
+            <Route path="/my_reservations" element={<MyReservations />} />
+            <Route element={<NavigationbarLayout />}>
+              <Route path="/" element={<Cars />} />
+              <Route path="/:id" element={<CarsDetails />} />
+              <Route path="/delete_car" element={<DeleteCar />} />
+              <Route path="/add_car" element={<AddCar />} />
+            </Route>
+          </Routes>
+        </Router>
+      </Provider>
+    </div>
+  );
+}
 
-  <div className="App">
-    <Provider store={store}>
-      <Router>
-        <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/add_car" element={<AddCar />} />
-          <Route path="/delete_car" element={<DeleteCar />} />
-          <Route path="/reservation/:id" element={<Reservation />} />
-          <Route path="/my_reservations" element={<MyReservations />} />
-          <Route element={<NavigationbarLayout />}>
-            <Route path="/" element={<Cars />} />
-            <Route path="/:id" element={<CarsDetails />} />
-          </Route>
-        </Routes>
-      </Router>
-    </Provider>
-  </div>
-);
 export default App;
