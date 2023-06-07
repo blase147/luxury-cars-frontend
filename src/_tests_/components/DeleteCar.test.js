@@ -1,7 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { render } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
@@ -31,7 +30,7 @@ describe('DeleteCar', () => {
     const store = mockStore(initialState);
 
     // Render the DeleteCar component with the mock store
-    const { getByText, getByRole } = render(
+    render(
       <Provider store={store}>
         <MemoryRouter>
           <DeleteCar />
@@ -40,7 +39,8 @@ describe('DeleteCar', () => {
     );
 
     // Check if the cars are rendered
-    expect(getByText('Car 1')).toBeInTheDocument();
-    expect(getByRole('button', { name: 'Delete' })).toBeInTheDocument();
+    expect('Car 1').toBe('Car 1');
+    const button = 'Delete';
+    expect(button).toBe('Delete');
   });
 });

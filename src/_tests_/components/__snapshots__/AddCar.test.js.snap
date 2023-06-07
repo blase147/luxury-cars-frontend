@@ -59,15 +59,6 @@ Object {
             />
           </div>
           <div
-            class="inputEle"
-          >
-            <input
-              name="car"
-              placeholder="Car"
-              type="text"
-            />
-          </div>
-          <div
             class="inputEle submit"
           >
             <button
@@ -156,15 +147,6 @@ Object {
             name="description"
             placeholder="Car Description..."
             rows="4"
-          />
-        </div>
-        <div
-          class="inputEle"
-        >
-          <input
-            name="car"
-            placeholder="Car"
-            type="text"
           />
         </div>
         <div
