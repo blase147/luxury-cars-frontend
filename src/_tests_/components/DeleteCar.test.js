@@ -21,7 +21,7 @@ describe('DeleteCar', () => {
     const initialState = {
       cars: {
         cars: [
-          { id: 1, name: 'Car 1' },
+          { id: 1, name: 'Alpine' },
         ],
         status: 'succeeded',
       },
@@ -40,7 +40,7 @@ describe('DeleteCar', () => {
     );
 
     // Check if the houses are rendered
-    expect(getByText('Cra 1')).toBeInTheDocument();
+    expect(getByText('Alpine')).toBeInTheDocument();
     expect(getByRole('button', { name: 'Delete' })).toBeInTheDocument();
   });
 });

@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders Adds car correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <form>
+          <h2>
+            ADD LUXURY CARS
+          </h2>
+          <div
+            class="inputEle first"
+          >
+            <input
+              name="name"
+              placeholder="Car Name"
+              type="text"
+            />
+          </div>
+          <div
+            class="inputEle"
+          >
+            <input
+              name="brand"
+              placeholder="Car brand"
+              type="text"
+            />
+          </div>
+          <div
+            class="inputEle"
+          >
+            <input
+              name="image"
+              placeholder="Car ImageUrl"
+              type="text"
+            />
+          </div>
+          <div
+            class="inputEle"
+          >
+            <input
+              name="lending_fee"
+              placeholder="Car lending_fee"
+              type="number"
+            />
+          </div>
+          <div
+            class="inputEle"
+          >
+            <textarea
+              id="message"
+              name="description"
+              placeholder="Car Description..."
+              rows="4"
+            />
+          </div>
+          <div
+            class="inputEle"
+          >
+            <input
+              name="car"
+              placeholder="Car"
+              type="text"
+            />
+          </div>
+          <div
+            class="inputEle submit"
+          >
+            <button
+              class="btnsubmitf"
+              type="button"
+            >
+              Add Car
+            </button>
+          </div>
+          <a
+            href="/"
+          >
+            <button
+              aria-label="Go back"
+              class="returnBtn"
+              type="button"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M321.94 98L158.82 237.78a24 24 0 000 36.44L321.94 414c15.57 13.34 39.62 2.28 39.62-18.22v-279.6c0-20.5-24.05-31.56-39.62-18.18z"
+                />
+              </svg>
+            </button>
+          </a>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <form>
+        <h2>
+          ADD LUXURY CARS
+        </h2>
+        <div
+          class="inputEle first"
+        >
+          <input
+            name="name"
+            placeholder="Car Name"
+            type="text"
+          />
+        </div>
+        <div
+          class="inputEle"
+        >
+          <input
+            name="brand"
+            placeholder="Car brand"
+            type="text"
+          />
+        </div>
+        <div
+          class="inputEle"
+        >
+          <input
+            name="image"
+            placeholder="Car ImageUrl"
+            type="text"
+          />
+        </div>
+        <div
+          class="inputEle"
+        >
+          <input
+            name="lending_fee"
+            placeholder="Car lending_fee"
+            type="number"
+          />
+        </div>
+        <div
+          class="inputEle"
+        >
+          <textarea
+            id="message"
+            name="description"
+            placeholder="Car Description..."
+            rows="4"
+          />
+        </div>
+        <div
+          class="inputEle"
+        >
+          <input
+            name="car"
+            placeholder="Car"
+            type="text"
+          />
+        </div>
+        <div
+          class="inputEle submit"
+        >
+          <button
+            class="btnsubmitf"
+            type="button"
+          >
+            Add Car
+          </button>
+        </div>
+        <a
+          href="/"
+        >
+          <button
+            aria-label="Go back"
+            class="returnBtn"
+            type="button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M321.94 98L158.82 237.78a24 24 0 000 36.44L321.94 414c15.57 13.34 39.62 2.28 39.62-18.22v-279.6c0-20.5-24.05-31.56-39.62-18.18z"
+              />
+            </svg>
+          </button>
+        </a>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

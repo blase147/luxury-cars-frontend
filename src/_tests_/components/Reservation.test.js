@@ -22,7 +22,7 @@ describe('Reservation', () => {
 
     render(<Reservation />);
 
-    expect(screen.getByText('Book your ride with')).toBeInTheDocument();
+    expect(screen.getByText('If you wish to book the car')).toBeInTheDocument();
     expect(screen.getByText('Confirm Booking')).toBeInTheDocument();
   });
 });
