@@ -6,11 +6,11 @@ import AddHouse from '../../components/addCars/addCar';
 import store from '../../Redux/store';
 
 describe('It renders', () => {
-  it('CountryList correctly', () => {
+  it('Adds car correctly', () => {
     const tree = render(
       <Provider store={store}>
         <MemoryRouter>
-          <AddHouse />
+          <AddCar />
         </MemoryRouter>
       </Provider>,
     );
