@@ -2,7 +2,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const BASE_URL = 'https://localhost:4000';
+const BASE_URL = 'http://localhost:4000';
 
 // Async thunk action to create a new reservation
 export const createReservation = createAsyncThunk(
