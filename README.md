@@ -27,6 +27,8 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Luxury Cars Lending <a name="about-the-project"></a>
+![FireShot Capture 001 - Multi Device Website Mockup Generator - www techsini com](https://github.com/blase147/luxury-cars-frontend/assets/98450369/18fbf53a-ecd2-48d5-a98b-4eabc12f9e42)
+
 
 **Luxury cars lending** is an implemention of a connection between Ruby on Rails back-end and React front-end. [Luxury-cars-backend](https://github.com/soulemanou-software/luxury-cars-backend) handles the backend API, and [Luxury-cars-frontend](https://github.com/blase147/luxury-cars-frontend) handles the frontend UI to display Luxury cars for rent, my reservations when logged in, add cars and delete cars navigations on the homepage.
 
