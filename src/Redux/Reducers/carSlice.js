@@ -4,7 +4,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const fetchCars = createAsyncThunk('cars/fetchCars', async () => {
-  const response = await axios.get('http://localhost:4000/api/v1/cars');
+  const response = await axios.get('postgres://luxury_cars_lending_backend_user:rZAGYzThl4xtaeMmkmApivkx9GURw97y@dpg-ci12dot269v7c0pvn1i0-a.oregon-postgres.render.com/luxury_cars_lending_backend/api/v1/cars');
   return response.data;
 });
 
