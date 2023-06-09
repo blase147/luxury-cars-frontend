@@ -3,14 +3,14 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const createCar = createAsyncThunk('cars/create', async (formData) => {
-  const response = await axios.post('http://localhost:4000/api/v1/cars', { car: formData });
+  const response = await axios.post('https://luxury-cars-lending-backend.onrender.com/api/v1/cars', { car: formData });
   return response.data;
 });
 
 export const deleteCar = createAsyncThunk(
   'cars/deleteCar',
   async (carId) => {
-    const response = await axios.delete(`http://localhost:4000/api/v1/cars/${carId}`);
+    const response = await axios.delete(`https://luxury-cars-lending-backend.onrender.com/api/v1/cars/${carId}`);
     return response.data;
   },
 );

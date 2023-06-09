@@ -16,7 +16,7 @@ const AddCar = () => {
     description: '',
     car: '', // Added car property to formData
   });
-  const apiEndPoint = 'http://localhost:4000/api/v1/cars';
+  const apiEndPoint = 'https://luxury-cars-lending-backend.onrender.com/api/v1/cars';
   const addCar = async (carData) => {
     try {
       const response = await axios.post(apiEndPoint, { car: carData });

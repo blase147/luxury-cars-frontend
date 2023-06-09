@@ -2,7 +2,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:4000';
+const BASE_URL = 'https://luxury-cars-lending-backend.onrender.com';
 
 // Async thunk action to create a new reservation
 export const createReservation = createAsyncThunk(

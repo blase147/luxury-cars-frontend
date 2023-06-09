@@ -5,7 +5,7 @@ import axios from 'axios';
 
 /* eslint-disable camelcase */
 export const signUp = createAsyncThunk('user/signUp', async ({ full_name, email, password }) => {
-  const response = await axios.post('http://localhost:4000/signup', {
+  const response = await axios.post('https://luxury-cars-lending-backend.onrender.com/signup', {
     user: { full_name, email, password },
   });
   return response.data;

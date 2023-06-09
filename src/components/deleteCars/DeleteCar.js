@@ -6,12 +6,12 @@ import './deleteCars.scss';
 const DeleteCar = () => {
   const [carData, setCarData] = useState([]);
   useEffect(() => {
-    axios.get('http://localhost:4000/api/v1/cars')
+    axios.get('https://luxury-cars-lending-backend.onrender.com/api/v1/cars')
       .then((response) => setCarData(response.data))
       .catch((error) => console.log(error));
   }, []);
   const handleDelete = (id) => {
-    axios.delete(`http://localhost:4000/api/v1/cars/${id}`)
+    axios.delete(`https://luxury-cars-lending-backend.onrender.com/api/v1/cars/${id}`)
       .then(() => {
         const updatedData = carData.filter((car) => car.id !== id);
         setCarData(updatedData);
