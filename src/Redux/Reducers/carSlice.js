@@ -4,7 +4,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const fetchCars = createAsyncThunk('cars/fetchCars', async () => {
-  const response = await axios.get('https://luxury-cars-lending-backend.onrender.com/api/v1/cars');
+  const response = await axios.get('http://localhost:4000/api/v1/cars');
   return response.data;
 });
 
