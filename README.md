@@ -48,7 +48,6 @@ We are a team of 3 members.
 
 # Link to the project <https://github.com/users/blase147/projects/9/views/1?layout=board>)
 
-![demo](https://luxury-cars-lending-frontend.onrender.com/)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -87,7 +86,7 @@ We are a team of 3 members.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Luxury Cars]()
+- [Luxury Cars](https://luxury-cars-lending-frontend.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
