@@ -44,9 +44,9 @@ We are a team of 3 members.
 
 ### Screenshot of of the initial state of the Kanban board
 
-(![image](https://github.com/blase147/luxury-cars-frontend/assets/98450369/62a835fa-e724-4393-89a8-77e3062c1461)
+![image](https://github.com/blase147/luxury-cars-frontend/assets/98450369/62a835fa-e724-4393-89a8-77e3062c1461)
 
-# Link to the project <https://github.com/users/blase147/projects/9/views/1?layout=board>)
+# Link to the project <https://github.com/users/blase147/projects/9/views/1?layout=board>
 
 
 ## 🛠 Built With <a name="built-with"></a>
