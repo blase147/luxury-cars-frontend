@@ -2,31 +2,34 @@
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
-- [📗 Table of Contents](#-table-of-contents-)
-- [📖 Luxury Cars Lending ](#-luxury-cars-lending-)
+
+- [📖 Luxury Cars Lending](#-luxury-cars-lending-)
   - [Kanban Board](#kanban-board-)
     - [Screenshot of of the initial state of the Kanban board](#screenshot-of-of-the-initial-state-of-the-kanban-board)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
+  - [🛠 Built With](#-built-with-)
+    - [Tech Stack](#tech-stack-)
+    - [Key Features](#key-features-)
+  - [🚀 Live Demo](#-live-demo-)
+  - [💻 Getting Started](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-    - [Usage ](#usage-)
+    - [Usage](#usage-)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
-  - [👥 Author ](#-author-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+  - [👥 Author](#-author-)
+  - [🔭 Future Features](#-future-features-)
+  - [🤝 Contributing](#-contributing-)
+  - [⭐️ Show your support](#️-show-your-support-)
+  - [🙏 Acknowledgments](#-acknowledgments-)
+  - [📝 License](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Luxury Cars Lending <a name="about-the-project"></a>
+![FireShot Capture 001 - Multi Device Website Mockup Generator - www techsini com](https://github.com/blase147/luxury-cars-frontend/assets/98450369/18fbf53a-ecd2-48d5-a98b-4eabc12f9e42)
+
+
 **Luxury cars lending** is an implemention of a connection between Ruby on Rails back-end and React front-end. [Luxury-cars-backend](https://github.com/soulemanou-software/luxury-cars-backend) handles the backend API, and [Luxury-cars-frontend](https://github.com/blase147/luxury-cars-frontend) handles the frontend UI to display Luxury cars for rent, my reservations when logged in, add cars and delete cars navigations on the homepage.
 
 ## Kanban Board
@@ -41,9 +44,9 @@ We are a team of 3 members.
 
 ### Screenshot of of the initial state of the Kanban board
 
-![]()
+![image](https://github.com/blase147/luxury-cars-frontend/assets/98450369/62a835fa-e724-4393-89a8-77e3062c1461)
 
-![]()
+### Link to the project <https://github.com/users/blase147/projects/9/views/1?layout=board>
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -83,16 +86,16 @@ We are a team of 3 members.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Luxury Cars]()
+- [Luxury Cars](https://luxury-cars-lending-frontend.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
+
 ### Prerequisites
 
 In order to run this project you need:
@@ -143,11 +146,10 @@ You can deploy this project using:
   npm run deploy
 ```
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Chukwuma Paul Mosanya**
 
@@ -166,7 +168,6 @@ You can deploy this project using:
 - [GitHub](https://github.com/bill7pearl)
 - [Twitter](https://twitter.com/)
 - [LinkedIn](https://www.linkedin.com/in/)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
